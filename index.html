@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Vishwakarma - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="navbar-menu">
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="landing">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am Ashish Vishwakarma, A Passionate Web Developer</p>
+            <img src="C:\Users\ashis\OneDrive\Documents\GitHub\Landing page\Photos" alt="Ashish Vishwakarma" class="profile-photo">
+        </div>
+        <div class="glitch-background"></div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-me">
+            <div class="about-me-content">
+                <p>
+                    Hello, my name is Ashish Vishwakarma, and I am a dedicated computer science student currently pursuing my education at Mumbai University. My academic journey has equipped me with a robust understanding of fundamental concepts such as data structures, algorithms, and the principles of software development. I have honed my technical skills in programming languages like Java and Python, which are essential tools in my repertoire for tackling complex computational problems. Additionally, I am well-versed in HTML and have a keen interest in exploring the vast landscape of web development technologies.
+                </p>
+                <p>
+                    My enthusiasm for web development is not just theoretical; it is backed by practical experience. I have worked on various projects that have allowed me to apply my knowledge of front-end technologies and understand the intricacies of user interface design and user experience optimization. I am also familiar with the basics of machine learning, which I believe is a powerful tool for creating intelligent and adaptive web applications.
+                </p>
+                <p>
+                    Beyond technical skills, I take pride in my ability to communicate effectively. I understand that in the world of computer science and web development, being able to articulate ideas and collaborate with others is just as important as writing clean code. My excellent communication abilities have been honed through various group projects and presentations, ensuring that I can convey my thoughts and understand the perspectives of others.
+                </p>
+                <p>
+                    My commitment to understanding and meeting client needs is further demonstrated by my proactive involvement in clubs and volunteering activities. In these roles, I have developed a customer-focused approach, where patience, empathy, and a genuine desire to help guide my interactions. These experiences have not only taught me the value of teamwork but have also sharpened my leadership skills, as I have often taken on leadership roles to organize events and drive initiatives forward.
+                </p>
+                <p>
+                    As a diligent and motivated individual, I am eager to embrace new challenges in the field of computer science and web development. I am continuously seeking opportunities to expand my knowledge and stay updated with the latest industry trends. My goal is to contribute to innovative projects that not only showcase my technical prowess but also my ability to connect with users and create meaningful experiences for them.
+                </p>
+                
+            </div>
+
+
+            <div class="about-me-image1">
+                <img src="C:\Users\ashis\OneDrive\Desktop\Landing page\1.png" alt="Ashish Vishwakarma" class="profile-photo1">
+            </div>
+        </div>
+
+        <div class="toggle-buttons">
+            <button class="toggle-btn" onclick="toggleSection('skills')">Skills</button>
+            <button class="toggle-btn" onclick="toggleSection('education')">Education</button>
+            <button class="toggle-btn" onclick="toggleSection('experience')">Experience</button>
+        </div>
+
+        <div id="skills" class="hidden-section">
+            <h3>Skills</h3>
+            <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>HTML5 & CSS3</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Git & Version Control</li>
+                <li>Responsive Design</li>
+            </ul>
+        </div>
+
+        <div id="education" class="hidden-section">
+            <h3>Education</h3>
+            <ul>
+                <li>Bachelor of Computer Science, Mumbai University (2024 - Present)</li>
+            </ul>
+        </div>
+
+        <div id="experience" class="hidden-section">
+            <h3>Experience</h3>
+            <div class="experience-item">
+                <h4>Star Liberty Medical</h4>
+                <p class="date">Dec 2021 - Feb 2022</p>
+                <ul>
+                    <li>Performed data entry tasks with a high degree of accuracy and attention to detail.</li>
+                    <li>Ensured timely processing of data, meeting all deadlines and improving efficiency.</li>
+                    <li>Contributed to maintaining a clean and organized database, enhancing the company's data management capabilities.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Raj Reality Estate</h4>
+                <p class="date">Jul 2022 - Jan 2023</p>
+                <ul>
+                    <li>Managed a diverse clientele for flat rentals, showcasing excellent customer service skills.</li>
+                    <li>Negotiated rental agreements and terms, achieving favorable outcomes for both clients and the company.</li>
+                    <li>Maintained a comprehensive understanding of the local real estate market, providing valuable insights to clients.</li>
+                    <li>Received positive feedback from clients for professionalism and responsiveness.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="service-box">
+            <div class="service-item">
+                <h3>Web Design & Development</h3>
+                <p>Creating visually appealing and user-friendly websites that are fully responsive and optimized for performance.</p>
+            </div>
+            <div class="service-item">
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive and engaging user interfaces with a focus on user experience, ensuring that applications are both beautiful and easy to use.</p>
+            </div>
+            <div class="service-item">
+                <h3>App Design & Development</h3>
+                <p>Building cross-platform mobile applications with a seamless user experience, incorporating the latest trends and technologies.</p>
+            </div>
+            <div class="service-item">
+                <h3>Machine Learning & AI Solutions</h3>
+                <p>Developing intelligent systems using machine learning algorithms to solve complex problems and enhance decision-making.</p>
+            </div>
+            <div class="service-item">
+                <h3>Custom Software Solutions</h3>
+                <p>Providing tailored software solutions to meet the specific needs of businesses, ensuring efficiency and scalability.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+<h2>Projects</h2>
+    <div class="project-item">
+        <h3 class="project-title">Machine Learning Model for Housing Prices</h3>
+        <p class="project-description">
+            Developed a predictive model using Python and scikit-learn to estimate housing prices based on various features, leading a team of four members.
+        </p>
+    </div>
+    
+    <div class="project-item">
+        <h3 class="project-title">Virtual Assistant</h3>
+        <p class="project-description">
+            Created a virtual assistant in Python that can perform tasks such as scheduling appointments, sending emails, and providing weather updates.
+        </p>
+    </div>
+    
+    <div class="project-item">
+        <h3 class="project-title">Farming App for APMC Updates</h3>
+        <p class="project-description">
+            Developed a farming application that provides daily APMC (Agricultural Produce Market Committee) updates, helping farmers to get real-time market prices and trends.
+        </p>
+    </div>
+</section>
+
+    <section id="contact-me">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-links-resume">
+                <div class="contact-links">
+                    <a href="https://www.instagram.com/x_x_ashish784_x_x" title="Instagram">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://wa.me/qr/DX4SGNBQHWLEO1" title="WhatsApp">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100023927648409" title="Facebook">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                    <a href="https://x.com/AshishV84379459" title="Twitter">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="www.linkedin.com/in/ashish-vishwakarma-2a7559253" title="LinkedIn">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                </div>
+                <a href="C:\Users\ashis\Downloads\RESUME AV.pdf" class="btn-resume" download>Download CV</a>
+            </div>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ashish Vishwakarma. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
